@@ -1,0 +1,14 @@
+baseURL = 'https://mperettoblog.github.io/'
+languageCode = 'en-us'
+title = 'Marco Peretto - Blog'
+theme = 'ronu-hugo-theme'
+
+[[menu.main]]
+	name = "Home"
+	url = "/"
+	weight = 1
+	
+[[menu.main]]
+	name = "Blog"
+	url = "/posts/"
+	weight = 2
