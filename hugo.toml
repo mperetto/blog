@@ -1,4 +1,4 @@
-baseURL = 'https://mperettoblog.github.io/'
+baseURL = 'https://mperetto.github.io/blog/'
 languageCode = 'en-us'
 title = 'Marco Peretto - Blog'
 theme = 'ronu-hugo-theme'
