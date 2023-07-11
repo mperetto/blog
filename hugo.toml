@@ -1,14 +1,36 @@
 baseURL = 'https://mperetto.github.io/blog/'
-languageCode = 'en-us'
 title = 'Marco Peretto - Blog'
 theme = 'ronu-hugo-theme'
 
-[[menu.main]]
+DefaultContentLanguage = "en"
+
+[Languages]
+[Languages.en]
+    languageName = "ENG"
+    languageCode = "en-us"
+    baseURL = "https://mperetto.github.io/blog/"
+
+[Languages.it]
+    languageName = "ITA"
+    languageCode = "it"
+    baseURL = "https://mperetto.github.io/blog/it/"
+
+[[Languages.en.menu.main]]
 	name = "Home"
 	url = "/"
 	weight = 1
-	
-[[menu.main]]
+
+[[Languages.en.menu.main]]
+	name = "Portfolio"
+	url = "https://mperetto.github.io/"
+	weight = 2
+
+[[Languages.it.menu.main]]
+	name = "Home"
+	url = "/"
+	weight = 1
+
+[[Languages.it.menu.main]]
 	name = "Portfolio"
 	url = "https://mperetto.github.io/"
 	weight = 2
