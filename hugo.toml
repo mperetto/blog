@@ -7,7 +7,7 @@ DefaultContentLanguage = "en"
 
 [Languages]
 [Languages.en]
-    languageName = "ENG"
+	languageName = "ENG"
     languageCode = "en-us"
 	baseURL = 'https://mperetto.github.io/blog/'
 
