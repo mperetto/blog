@@ -7,18 +7,16 @@ DefaultContentLanguage = "en"
 
 [Languages]
 [Languages.en]
-	languageName = "ENG"
+    languageName = "ENG"
     languageCode = "en-us"
-	baseURL = 'https://mperetto.github.io/blog/'
 
 [Languages.it]
     languageName = "ITA"
     languageCode = "it"
-	baseURL = 'https://mperetto.github.io/blog/it/'
 
 [[Languages.en.menu.main]]
 	name = "Home"
-	url = "/"
+	url = ""
 	weight = 1
 
 [[Languages.en.menu.main]]
@@ -28,7 +26,7 @@ DefaultContentLanguage = "en"
 
 [[Languages.it.menu.main]]
 	name = "Home"
-	url = "/"
+	url = ""
 	weight = 1
 
 [[Languages.it.menu.main]]
